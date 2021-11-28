@@ -1,0 +1,53 @@
+.header1{
+    color: rgb(240,240,240);
+    background-color: grey;
+    font-family:Courier;
+    font-style: normal;
+}
+#header2{
+    font-family:monospace;
+    font-style: italic;
+    color: blue;
+}
+#header3{
+    font-family:serif;
+    font-style: oblique;
+}
+#header4{
+    font-family:sans-serif;
+    
+}
+
+a:link{
+    color : blueviolet ;
+    font-family:  monospace;
+}
+/* quand la sourie est sutie sur ce lien  */
+a:hover{
+    font-family:  Courier;
+}
+/* si on clicsur ce lien */
+a:active{
+    font-size:40px; 
+}
+a:visited{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table{
+    background-color:aqua;
+    border : 4px dashed /* solid */  rgb(230, 73, 164);
+    
+}
+td,th{
+    background-color: aquamarine;
+}
+/* order list */
+ol {
+    list-style-type: upper-roman;  /* pour rendre selon lordre romain */
+   
+}
+/* unoreder list */
+ul{
+    list-style-type: square;
+}
